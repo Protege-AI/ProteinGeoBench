@@ -1,0 +1,18 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local run output
+/logs/
+/jobs/
+reward.txt
+answer.txt
+
+# Never commit credentials
+.env
+*.key
